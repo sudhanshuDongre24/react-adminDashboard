@@ -5,15 +5,15 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="/src/assets/logo.svg" alt="" />
+        <img src="/logo.svg" alt="" />
         <span>Iamadmin</span>
       </div>
       <div className="icons">
-        <img src="/src/assets/search.svg" alt="" className="icon" />
-        <img src="/src/assets/app.svg" alt="" className="icon" />
-        <img src="/src/assets/expand.svg" alt="" className="icon" />
+        <img src="/search.svg" alt="" className="icon" />
+        <img src="/app.svg" alt="" className="icon" />
+        <img src="/expand.svg" alt="" className="icon" />
         <div className="notification">
-          <img src="/src/assets/notifications.svg" alt="" className="icon" />
+          <img src="/notifications.svg" alt="" className="icon" />
           <span>1</span>
         </div>
         <div className="user">
@@ -24,7 +24,7 @@ const Navbar = () => {
           />
           <span>Sam</span>
         </div>
-        <img src="/src/assets/settings.svg" alt="" />
+        <img src="/settings.svg" alt="" />
       </div>
     </div>
   );
