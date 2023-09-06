@@ -1,8 +1,14 @@
 import React from "react";
 import "./user.scss";
+import { Single } from "../../components";
+import { singleUser } from "../../data";
 
 const User = () => {
-  return <div>User</div>;
+  return (
+    <div className="user">
+      <Single {...singleUser} />
+    </div>
+  );
 };
 
 export default User;
