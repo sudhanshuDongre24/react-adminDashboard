@@ -11,7 +11,6 @@ import {
 } from "recharts";
 
 const Single = (props) => {
-  console.log(props.info);
   return (
     <div className="single">
       <div className="view">
